@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+body{
+    background:url(forgot.jpg);
+    background-size: cover;
+    background-repeat: none;
+    margin:0px;
+    padding:0px;
+}
+
+.box{
+    background:black;
+    width:230px;
+    height:auto;
+    position: relative;
+    top:200px;
+    left:50%;
+    color:white;
+    padding:40px;
+}
+.box div{
+    padding-bottom:40px;
+}
+
+p{
+   padding-bottom:15px; 
+}
+
+.box input[type="submit"]
+{
+    border:none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background: rgb(25, 25, 125);
+    color: #fff;
+    font-size: 18px;
+    border-radius:20px ;
+    margin-left:25%;
+}
+
+.box input{
+    font-size: 15px ;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color:white;
+    font-weight: italic;
+    outline: none;
+}
+
+.box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:white;
+    color: #000;
+}
+

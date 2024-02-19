@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;   
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: url(cb3.png);
+    background-size: cover;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+    padding:60px;
+    font-size:35px ;
+    font-family: sans-serif;
+}
+
+.sem{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow:5px 5px 20px black ;
+    align-items: center;
+    text-align: center;
+    left:200px;
+    justify-content: center;
+    margin-left: 500px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.sem label{
+    font-size: 20px;
+}
+
+.sem input{
+    font-size: 15px ;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    color:black;
+    font-weight: italic;
+    outline: none;
+}
+
+.sem div{
+    margin:20px;
+}
+
+#reset{
+    margin-top: 20px;
+    margin-bottom:20px;
+    border-radius: 20px;
+    background-color: rgb(133, 133, 252);
+    width: 80px;
+    left:-50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-family: rotate slab;
+    cursor:pointer;
+}
+
+#reset:hover{
+    background-color:blanchedalmond;
+}
+
+#calculate{
+    border-radius: 20px;
+    background-color: rgb(235, 86, 86);
+    width: 110px;
+    left:-50px;
+    font-size: 22px;
+    font-family: rotate slab;
+    margin-right: 1px;
+    cursor:pointer;
+}
+
+#calculate:hover{
+    background-color:blanchedalmond;
+}
